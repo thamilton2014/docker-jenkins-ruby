@@ -1,11 +1,11 @@
 #!/bin/bash --login
 
 MASTER=http://192.168.99.100:8080
-EXECUTORS=3
+EXECUTORS=2
 NAME=slave_$(date "+%Y.%m.%d-%H.%M.%S")
-LABELS=automation_node
-USERNAME=thamilton
-PASSWORD=Password9!
+LABELS='automation_node'
+USERNAME='thamilton'
+PASSWORD='Password9!'
 
 function shutdown {
     echo "Shutting down Jenkins slave..."
