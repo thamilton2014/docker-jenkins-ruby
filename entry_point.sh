@@ -2,8 +2,8 @@
 
 MASTER=http://192.168.99.100:8080
 EXECUTORS=2
-NAME=slave_$(date "+%Y.%m.%d-%H.%M.%S")
-LABELS='automation_node'
+NAME=ruby_slave_$(date "+%Y.%m.%d-%H.%M.%S")
+LABELS='ruby_automation_node'
 USERNAME='thamilton'
 PASSWORD='Password9!'
 
